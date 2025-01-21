@@ -203,7 +203,7 @@ const Hero = () => {
     }
 
     return (
-        <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-4 md:px-8 py-12 md:py-20 bg-black">
+        <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-4 md:px-8 pt-24 bg-black">
             <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
